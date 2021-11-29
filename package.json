@@ -1,0 +1,16 @@
+{
+  "name": "lyliyutong",
+  "version": "1.0.0",
+  "description": "lee book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "set port=8808 &&vuepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
